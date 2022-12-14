@@ -135,4 +135,7 @@ body{
 #messageArea{
   width: 100%;
   text-align: center;
+  font-family: fantasy;
+  font-size: xx-large;
+  color: black;
 }
