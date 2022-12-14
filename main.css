@@ -52,7 +52,7 @@ td div {
   position: relative;
   padding-top: 5px;
   padding-bottom:5px;
-  background-image: url("../boomBoomShip/shipExplosion.png");
+  background-image: url("shipExplosion.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,7 +69,7 @@ td div {
 
 .miss {
   position: relative;
-  background-image: url("../boomBoomShip/splash.jpg");
+  background-image: url("splash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -106,7 +106,7 @@ body{
 }
 
 body{
-  background-image: url("../boomBoomShip/blue-water-surface-template-in-cartoon-style-free-vector.jpg");
+  background-image: url("background-image.jpg");
 }
 
 .button {
