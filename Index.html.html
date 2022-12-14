@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="main.css">
+	<title>Battleship</title>
+</head>
+<body>
+	<h1>BOOM BOOM SHIP</h1>
+	<div id="instructions">
+		Hello there and welcome to BOOM BOOM ship, a game where your goal is to sink all the ships that are present on the board.<br>
+		Depending on the difficulty you select, there will be a different amount of ships at varying lengths. You are able to sink the ships by clicking<br>
+		on a box inside the board, and it will tell you if you missed or hit. Once you are ready press "Play Game" and enjoy the game!
+	</div>
+	<br>
+	<div id="board">
+		<form id="radio-buttons" class="radio">
+			<input type="radio" value="easy" name="difficulty">
+			<label for="easy">Easy</label>
+			<input type="radio" value="medium" name="difficulty">
+			<label for="medium">Medium</label>
+			<input type="radio" value="hard" name="difficulty">
+			<label for="hard">Hard</label>
+			<br><br>
+			<input type="button" class="button" value="Play Game" onclick="generateBoard()">
+		</form>
+		<br><br>
+		<div id="messageArea"></div>
+		<br><br>
+		<table id="table"></table>
+	</div>
+
+	<script src="battleship.js"></script>
+</body>
+</html>
